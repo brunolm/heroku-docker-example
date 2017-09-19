@@ -1,0 +1,8 @@
+local:
+  image: node:8.5.0
+  command: npm run start-compose
+  working_dir: /usr/src/app
+  volumes:
+    - ./:/usr/src/app
+  ports:
+    - 8080

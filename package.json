@@ -1,0 +1,26 @@
+{
+  "name": "heroku-docker-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "start-compose": "ts-node index-compose.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunolm/heroku-docker-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunolm/heroku-docker-example/issues"
+  },
+  "homepage": "https://github.com/brunolm/heroku-docker-example#readme",
+  "dependencies": {
+    "@types/node": "^8.0.28",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.2"
+  }
+}
