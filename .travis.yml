@@ -12,6 +12,6 @@ before_script:
   - docker build -t registry.heroku.com/heroku-docker-example/node_js .
 after_success:
   - if [ "$TRAVIS_BRANCH" == "master" ]; then
-    docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD" registry.heroku.com
-    docker push registry.heroku.com/heroku-docker-example/node_js
+    docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD" registry.heroku.com;
+    docker push registry.heroku.com/heroku-docker-example/node_js;
     fi
