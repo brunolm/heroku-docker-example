@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 
 ENV NODE_ENV production
 
-EXPOSE 8080
+EXPOSE 3000
 
 RUN npm i
 CMD ["npm", "start"]
